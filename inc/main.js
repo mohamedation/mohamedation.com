@@ -6,7 +6,6 @@ const twitter = document.querySelector('.twitter');
 const github = document.querySelector('.github');
 const dev = document.querySelector('.dev');
 const blog = document.querySelector('.blog');
-const secwifi = document.querySelector('.sec-wifi');
 const email = document.querySelector('.email');
 const text = ['Wake up...', 'mohamedation has you...', 'Follow the white rabbit...'];
 
@@ -41,7 +40,6 @@ const addLetter = () => {
             github.classList.add('slideup');
             dev.classList.add('slideup');
             blog.classList.add('slideup');
-            secwifi.classList.add('slideup');
             email.classList.add('slideup');
             const interval = setInterval(function() {
                 setRandomClass();
